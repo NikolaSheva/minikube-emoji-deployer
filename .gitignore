@@ -1,0 +1,19 @@
+# Игнорируем временные файлы
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Shell history
+.history
+.bash_history
+
+# minikube и kubectl специфичное
+logs.txt
+.kube/
+.minikube/
